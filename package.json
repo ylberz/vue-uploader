@@ -1,0 +1,45 @@
+{
+  "name": "vue-uploader",
+  "version": "1.0.8",
+  "author": "Ylber Zeqiri",
+  "description": "Simple Vue File Uploader",
+  "main": "./dist/vue-loader.umd.js",
+  "module": "./dist/vue-loader.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-uploader.es.js",
+      "require": "./dist/vue-uploader.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.4.0"
+  },
+  "keywords": [
+    "vue",
+    "vue-image-picker",
+    "vue-upload",
+    "vue-upload-component",
+    "vue-file-upload-component",
+    "vue-image-crop",
+    "vue-image-cropper",
+    "vue-cropper",
+    "vue-crop",
+    "vue-progress",
+    "file-upload",
+    "uploader",
+    "file-uploader",
+    "image-uploader",
+    "file-picker",
+    "file",
+    "upload",
+    "input",
+    "dropzone",
+    "multi",
+    "multipart",
+    "ajax",
+    "xhr",
+    "vuejs"
+  ]
+}
