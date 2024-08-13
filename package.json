@@ -1,6 +1,6 @@
 {
   "name": "vue-uploader",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "author": "Ylber Zeqiri",
   "description": "Simple Vue File Uploader",
   "main": "./dist/vue-loader.umd.js",

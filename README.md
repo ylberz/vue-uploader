@@ -16,3 +16,41 @@ Install `VueUploader` via npm:
 ```bash
 npm install vue-uploader
 ```
+
+## usage / example
+
+import `VueUploader` compnent in main.js:
+
+```javascript
+import vueUploader from "vue-uploader";
+import "vue-uploader/dist/style.css";
+
+const app = createApp(App);
+app.use(vueUploader);
+app.mount("#app");
+```
+
+use of the VueUploader
+
+```javascript
+<script setup>
+const files = ref(null);
+const onFileUpload = (files) => {};
+const onRemoveFile = (files) => {};
+</script>
+<template>
+  <VueUploader
+    @onFileUpload="onFileUpload"
+    @onRemoveFile="onRemoveFile"
+    :multiple="false"
+    label="Upload or drag & drop"
+  ></VueUploader>
+</template>
+```
+
+## props and events
+
+- **@onFileUpload="onFileUpload"**: This binds the onFileUpload function to the onFileUpload event of the VueUploader component, which will be triggered when a file is uploaded.
+- **@onRemoveFile="onRemoveFile"**: This binds the onRemoveFile function to the onRemoveFile event of the VueUploader component, which will be triggered when a file is removed.
+- **:multiple="false"**:This prop ensures that only one file can be uploaded at a time.
+- **label="Upload or drag & drop"**: This prop sets the label or placeholder text displayed in the uploader component
