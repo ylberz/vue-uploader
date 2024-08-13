@@ -1,8 +1,12 @@
 {
   "name": "vue-uploader",
-  "version": "1.1.0",
+  "version": "1.1.4",
   "author": "Ylber Zeqiri",
   "description": "Simple Vue File Uploader",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ylberz/vue-uploader"
+  },
   "main": "./dist/vue-loader.umd.js",
   "module": "./dist/vue-loader.es.js",
   "exports": {

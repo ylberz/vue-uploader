@@ -34,18 +34,19 @@ use of the VueUploader
 
 ```javascript
 <script setup>
-const files = ref(null);
+import { ref } from "vue";
+const files = ref();
 const onFileUpload = (files) => {};
 const onRemoveFile = (files) => {};
 </script>
 <template>
   <VueUploader
-    @onFileUpload="onFileUpload"
-    @onRemoveFile="onRemoveFile"
-    :multiple="false"
+    :multiple="true"
     label="Upload or drag & drop"
+    v-model="files"
   ></VueUploader>
 </template>
+
 ```
 
 ## Props and events
