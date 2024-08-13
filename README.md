@@ -48,9 +48,13 @@ const onRemoveFile = (files) => {};
 </template>
 ```
 
-## props and events
+## Props and events
 
 - **@onFileUpload="onFileUpload"**: This binds the onFileUpload function to the onFileUpload event of the VueUploader component, which will be triggered when a file is uploaded.
 - **@onRemoveFile="onRemoveFile"**: This binds the onRemoveFile function to the onRemoveFile event of the VueUploader component, which will be triggered when a file is removed.
 - **:multiple="false"**:This prop ensures that only one file can be uploaded at a time.
 - **label="Upload or drag & drop"**: This prop sets the label or placeholder text displayed in the uploader component
+
+## Preview
+
+![App Screenshot](https://raw.githubusercontent.com/ylberz/vue-uploader/main/images/sc1.png)
