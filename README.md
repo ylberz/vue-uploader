@@ -59,3 +59,9 @@ const onRemoveFile = (files) => {};
 ## Preview
 
 ![App Screenshot](https://raw.githubusercontent.com/ylberz/vue-uploader/main/images/sc1.png)
+
+## Thanks a lot
+
+If you appreciate my work and want to support future projects, consider buying me a coffee! ☕️
+
+<a href="https://buymeacoffee.com/ylberzeqiri" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
