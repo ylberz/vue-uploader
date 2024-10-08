@@ -1,11 +1,11 @@
 {
   "name": "vue-uploader",
-  "version": "1.1.19",
+  "version": "1.1.20",
   "author": "Ylber Zeqiri",
   "description": "Simple Vue File Uploader",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ylberz/vue-uploader"
+    "url": "git+https://github.com/ylberz/vue-uploader.git"
   },
   "files": [
     "dist"
